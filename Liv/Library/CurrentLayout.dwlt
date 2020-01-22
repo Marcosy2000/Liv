@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 679, y: 494}
-  m_MaxSize: {x: 14002, y: 14044}
+  m_MinSize: {x: 683, y: 494}
+  m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 80
+  controlID: 20
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 1992
     height: 1307
-  m_MinSize: {x: 404, y: 494}
+  m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 124
+  controlID: 21
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,10 +161,10 @@ MonoBehaviour:
     y: 0
     width: 1992
     height: 964
-  m_MinSize: {x: 404, y: 222}
-  m_MaxSize: {x: 8004, y: 4022}
+  m_MinSize: {x: 406, y: 222}
+  m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 125
+  controlID: 22
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,8 +184,8 @@ MonoBehaviour:
     y: 0
     width: 591
     height: 964
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -268,8 +268,8 @@ MonoBehaviour:
     y: 0
     width: 568
     height: 1307
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 12}
@@ -414,21 +414,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d2c6ffffc0c9ffff24deffffbaecffff0aefffff2ef4ffff56f4ffff94f9ffff8efbffff44380000
+      m_ExpandedIDs: cedfffff8efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Suelo
+        m_OriginalName: Suelo
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 15092
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -474,9 +474,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 84.785286, y: -48.49875, z: -28.963173}
+    m_Target: {x: -33.43427, y: -291.32544, z: -253.6082}
     speed: 2
-    m_Value: {x: 84.785286, y: -48.49875, z: -28.963173}
+    m_Value: {x: -33.43427, y: -291.32544, z: -253.6082}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -505,13 +505,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.14159572, y: -0.8188256, z: 0.22994284, w: -0.5074858}
+    m_Target: {x: 0.016846726, y: -0.90970105, z: 0.41474304, w: 0.033998333}
     speed: 2
-    m_Value: {x: -0.14187379, y: -0.8176791, z: 0.22962226, w: -0.50847447}
+    m_Value: {x: 0.01678736, y: -0.90986395, z: 0.41316998, w: 0.03400639}
   m_Size:
-    m_Target: 181.43063
+    m_Target: 538.4079
     speed: 2
-    m_Value: 189.97972
+    m_Value: 563.7779
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -782,19 +782,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Assets/Assets general
+    - Assets/Assets/Edificios
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Assets/Assets general
+  - Assets/Assets/Edificios
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\macamu\Documents\GitHub\Liv\Liv
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1c300000
-    m_LastClickedID: 12316
+    m_SelectedIDs: 0c340000
+    m_LastClickedID: 13324
     m_ExpandedIDs: 00000000ea2f000028300000f43200003435000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
