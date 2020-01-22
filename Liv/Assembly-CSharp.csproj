@@ -62,6 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PESCAR\barra_naranja_horizontal.cs" />
+    <Compile Include="Assets\PESCAR\barra_verde_horizontal.cs" />
+    <Compile Include="Assets\PESCAR\movi.cs" />
     <Compile Include="Assets\Scripts\controls\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\controls\MovimientoPersonajeMCM.cs" />
     <Reference Include="Unity.Timeline.Editor">
