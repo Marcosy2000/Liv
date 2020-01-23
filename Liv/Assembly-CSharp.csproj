@@ -62,9 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PESCAR\barra_naranja_horizontal.cs" />
-    <Compile Include="Assets\PESCAR\barra_verde_horizontal.cs" />
-    <Compile Include="Assets\PESCAR\movi.cs" />
     <Compile Include="Assets\Scripts\controls\ButtonTutorial.cs" />
     <Compile Include="Assets\Scripts\controls\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\controls\Interfaz.cs" />
@@ -86,6 +83,9 @@
     <Compile Include="Assets\Scripts\NPC\GallinaNavigation.cs" />
     <Compile Include="Assets\Scripts\NPC\granjeroController.cs" />
     <Compile Include="Assets\Scripts\NPC\pescador.cs" />
+    <Compile Include="Assets\Scripts\PESCAR\barra_naranja_horizontal.cs" />
+    <Compile Include="Assets\Scripts\PESCAR\barra_verde_horizontal.cs" />
+    <Compile Include="Assets\Scripts\PESCAR\movi.cs" />
     <Compile Include="Assets\Scripts\Player\Control.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\Player\zonasControl.cs" />
