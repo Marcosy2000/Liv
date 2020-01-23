@@ -65,52 +65,82 @@
     <Compile Include="Assets\PESCAR\barra_naranja_horizontal.cs" />
     <Compile Include="Assets\PESCAR\barra_verde_horizontal.cs" />
     <Compile Include="Assets\PESCAR\movi.cs" />
+    <Compile Include="Assets\Scripts\controls\ButtonTutorial.cs" />
     <Compile Include="Assets\Scripts\controls\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\controls\Interfaz.cs" />
+    <Compile Include="Assets\Scripts\controls\LevelLoader.cs" />
+    <Compile Include="Assets\Scripts\controls\looking.cs" />
+    <Compile Include="Assets\Scripts\controls\MenuPrincipal\BotonesPrincipalControl.cs" />
     <Compile Include="Assets\Scripts\controls\MovimientoPersonajeMCM.cs" />
+    <Compile Include="Assets\Scripts\controls\SaveControl.cs" />
+    <Compile Include="Assets\Scripts\controls\sonido.cs" />
+    <Compile Include="Assets\Scripts\Items\anguila.cs" />
+    <Compile Include="Assets\Scripts\Items\Arbol.cs" />
+    <Compile Include="Assets\Scripts\Items\ItemObject.cs" />
+    <Compile Include="Assets\Scripts\Items\ItemPickup.cs" />
+    <Compile Include="Assets\Scripts\Items\MaderaRigid.cs" />
+    <Compile Include="Assets\Scripts\Items\olla.cs" />
+    <Compile Include="Assets\Scripts\Items\PlantasMedicinales.cs" />
+    <Compile Include="Assets\Scripts\Items\tocon.cs" />
+    <Compile Include="Assets\Scripts\NPC\Alcalde.cs" />
+    <Compile Include="Assets\Scripts\NPC\Cocinera.cs" />
+    <Compile Include="Assets\Scripts\NPC\GallinaNavigation.cs" />
+    <Compile Include="Assets\Scripts\NPC\Granjero.cs" />
+    <Compile Include="Assets\Scripts\NPC\granjeroController.cs" />
+    <Compile Include="Assets\Scripts\NPC\pescador.cs" />
+    <Compile Include="Assets\Scripts\Player\Control.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerControls.cs" />
+    <Compile Include="Assets\Scripts\Player\zonasControl.cs" />
+    <Compile Include="Assets\Scripts\Quest\QButtonScript.cs" />
+    <Compile Include="Assets\Scripts\Quest\QLogButtonScript.cs" />
+    <Compile Include="Assets\Scripts\Quest\Quest.cs" />
+    <Compile Include="Assets\Scripts\Quest\QuestManager.cs" />
+    <Compile Include="Assets\Scripts\Quest\QuestObject.cs" />
+    <Compile Include="Assets\Scripts\Quest\QuestUIManager.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Lightweight.Runtime">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Lightweight.Editor">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.RenderPipelines.Lightweight.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -299,13 +329,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.10f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/macamu/Documents/GitHub/Liv/Liv/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/dasaso/Documents/GitHub/Liv/Liv/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.10f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

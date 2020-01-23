@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1866496941784280796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4298581321169563162}
+  - component: {fileID: 7944236772262071060}
+  m_Layer: 0
+  m_Name: QuestManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4298581321169563162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866496941784280796}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7944236772262071060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866496941784280796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f0bf4295cf06544abfe5046db976c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questList:
+  - title: Alcalde y las fiestas
+    id: 0
+    progress: 1
+    description: Las fiesta no se pueden celebrar ya que la <color=cyan>cocinera</color>no
+      puede hacer el all y pebre. Toma <color=maroon>10 monedas</color> por si necesitas
+      comprar algo
+    hint: 'Pista: Ves a hablar con la <color=cyan>cocinera</color>'
+    congratulation: 
+    summary: 
+    nextQuest: 1
+    questObjective: Hablar con la cocinera
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: Cocinera sin all i pebre
+    id: 1
+    progress: 0
+    description: "Tengo las patatas, el ajo y el piment\xF3n, pero me he quedado sin
+      <Color=maroon>anguilas</color>, \xBFpodrias hacerme el favor de traerme unas
+      cuantas?, prometo hacer un all y pebre delicioso para todos cuando las fiestas
+      empiecen."
+    hint: 'Pista: Ves a hablar con el pescadero'
+    congratulation: 
+    summary: 
+    nextQuest: 2
+    questObjective: pescador
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 10
+    itemReward: 
+  - title: La barca rota
+    id: 2
+    progress: 0
+    description: "\xBFNecesitas Anguilas?, lo siento no puedo prestarte la barca,
+      tiene un agujero y necesito <color=marron>madera</color> para repararla."
+    hint: 'pista: Ves al <color=cyan>aserradero</color>'
+    congratulation: 
+    summary: 
+    nextQuest: 3
+    questObjective: herrero
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: hacha usada
+    id: 3
+    progress: 0
+    description: "\xBFNecesitas recolectar <color=marron>madera</color>? tengo un
+      hacha usada, por <color=marron>10 monedas</color> es tuya. Si decides comprarla
+      vuelve a hablar conmigo."
+    hint: 
+    congratulation: 
+    summary: 
+    nextQuest: 14
+    questObjective: none
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: Cocinera sin olla
+    id: 4
+    progress: 0
+    description: "Gracias, por las Anguilas, pero ha surgido un problema\u2026 la
+      <color=marron>olla</color> se me ha partido y me he quedado sin le\xF1a, puedes
+      llevar la olla al <color=cyan>herrero</color> para repararla?, y traerme un
+      poco de <color=marron>madera</color>?"
+    hint: 'Pista: habla con el herrero'
+    congratulation: Si quieres que te <color=marron>repare</color> la olla me tienes
+      que dar <color=marron>10 monedas</color>
+    summary: 
+    nextQuest: 5
+    questObjective: herrero
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: herrero reparador
+    id: 5
+    progress: 0
+    description: Si quieres que te <color=marron>repare</color> la olla me tienes
+      que dar <color=marron>10 monedas</color>
+    hint: 'Pista: Consigue <color=marron>oro</color> ayudando a la gente del pueblo'
+    congratulation: 
+    summary: 
+    nextQuest: 15
+    questObjective: consigue oro
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: Cocinera sin permisos
+    id: 6
+    progress: 0
+    description: Ahora que lo tengo todo, solo necesito el  <color=marron>permiso
+      de venta</color> del alcalde para poder vender mi comida durante las fiestas
+    hint: 'Pista: Habla con el  <color=cyan>alcalde</color>.'
+    congratulation: 
+    summary: 
+    nextQuest: 7
+    questObjective: habla con el alcalde
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: La hija enferma
+    id: 7
+    progress: 0
+    description: "Mi hija se ha puesto enferma, necesita <color=marron>medicina</color>
+      para curarse, habla con el <color=cyan>boticario</color>, luego te dar\xE9 el
+      <color=marron>permiso de venta</color>"
+    hint: 'Pista: Habla con el <color=cyan>boticario</color>.'
+    congratulation: 
+    summary: 
+    nextQuest: 8
+    questObjective: Habla con el boticario
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: Boticario curandero
+    id: 8
+    progress: 0
+    description: Para hacer la medicina necesito <color=marron>plantas medicinales</color>.
+    hint: "Pista: Tr\xE1eme esas <color=marron>plantas medicinales</color>."
+    congratulation: 
+    summary: 
+    nextQuest: 11
+    questObjective: plantas medicinales
+    questObjectiveCount: 0
+    questObjectiveRequirement: 2
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: Pescadero profesional
+    id: 9
+    progress: 0
+    description: "Te dejar\xE9 pescar por s\xF3lo <color=marron>10 monedas</color>
+      cada intento"
+    hint: 'pista: intenta pescar tantas anguilas como puedas'
+    congratulation: s
+    summary: 
+    nextQuest: 10
+    questObjective: pesca
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: Boticario curandero 2
+    id: 11
+    progress: 0
+    description: "Ahora s\xF3lo me falta un par de <color=marron>anguilas</color>."
+    hint: 'Pista: pesca anguilas'
+    congratulation: Gracias por traerlas
+    summary: 
+    nextQuest: 16
+    questObjective: anguilas
+    questObjectiveCount: 0
+    questObjectiveRequirement: 2
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: madera
+    id: 12
+    progress: 1
+    description: Recuerda traerme madera para arreglar la barca
+    hint: 'Pista: tala arboles con el hacha del herrero'
+    congratulation: Gracias por la madera, ya puedes pescar en mi barca por solo 10
+      monedas
+    summary: 
+    nextQuest: 14
+    questObjective: madera
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: anguilas
+    id: 13
+    progress: 1
+    description: Traerme anguilas para cocinar el all i pebre
+    hint: ' Ves a pecar al <Color=cyan>puerto</color>'
+    congratulation: 
+    summary: 
+    nextQuest: 4
+    questObjective: anguilas
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: NONE
+    id: 14
+    progress: 0
+    description: "Te dejar\xE9 pescar por s\xF3lo <color=marron>10 monedas</color>
+      cada intento"
+    hint: 'pista: intenta pescar tantas anguilas como puedas'
+    congratulation: s
+    summary: 
+    nextQuest: 14
+    questObjective: pesca
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: olla reparada
+    id: 15
+    progress: 0
+    description: Llevale la olla de los huevos a la cocinera
+    hint: 
+    congratulation: 
+    summary: 
+    nextQuest: 6
+    questObjective: devuelve la olla
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: Medicina lista
+    id: 16
+    progress: 0
+    description: Llevale la medicina al alcalde
+    hint: Habla con el alcalde
+    congratulation: Gracias por tu ayuda, por fin podremos celebrar las fiestas
+    summary: 
+    nextQuest: 17
+    questObjective: medicina
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: NONE
+    id: 10
+    progress: 0
+    description: Llevale la olla de los huevos a la cocinera
+    hint: 
+    congratulation: 
+    summary: 
+    nextQuest: 6
+    questObjective: devuelve la olla
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: NONE
+    id: 10
+    progress: 0
+    description: Llevale la olla de los huevos a la cocinera
+    hint: 
+    congratulation: 
+    summary: 
+    nextQuest: 6
+    questObjective: devuelve la olla
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  currentQuestList: []
+  Objective: 
+  itemCorrecto: 0
+  talking: 0
